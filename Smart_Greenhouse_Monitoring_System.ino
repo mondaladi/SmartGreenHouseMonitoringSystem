@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL33KTOM6jK"
-#define BLYNK_TEMPLATE_NAME "Smart Greenhouse Monitoring System"
-#define BLYNK_AUTH_TOKEN "YA5VjFUFTQVu45KKvZPFWjgaruKjweXx"
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -20,8 +20,8 @@ DHT dht(DHTPIN, DHTTYPE);
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // LCD I2C address and dimensions
 
 char auth[] = BLYNK_AUTH_TOKEN;    // Blynk authentication token
-char ssid[] = "Adi";               // WiFi SSID
-char pass[] = "Aditya@129";        // WiFi password
+char ssid[] = "YOUR_WIFI_SSID";   // WiFi SSID
+char pass[] = "YOUR_WIFI_PASS";   // WiFi Password     
 
 bool manualPumpControl = false;  
 bool manualLightControl = false; 
