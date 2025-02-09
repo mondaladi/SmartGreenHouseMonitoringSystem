@@ -23,5 +23,5 @@ This project is an **IoT-based Smart Greenhouse Monitoring System** using an **E
 - **Exhaust Fan:** Automatic control based on temperature thresholds with manual override through Blynk.  
 - **Air Quality:** Integration of MQ-135 sensor for CO₂/VOCs detection; triggers auto fan control if levels are high.  
 - **Soil Acidity:** Real-time pH monitoring with alerts for pH imbalance using a pH sensor.  
-- **MUX (CD74HC4067):** Expand analog inputs to connect multiple sensors (moisture, pH) to a single ADC pin.  
+- **MUX (CD74HC4067):** Expand analog inputs to connect multiple sensors (moisture, pH) to the single ADC pin of the NodeMCU.  
 - **Light and Fan Switch:** Physical switches for manual light and fan control, fully synchronized with Blynk.  
